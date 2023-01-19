@@ -2,7 +2,7 @@ package farrel.putra.classes;
 
 public class StringBuilderApp {
     public static void main(String[] args) {
-        /**
+        /*
          * actually java creates 3 new object data in different memory, there are:
          * 1. Farrel
          * 2. Farrel Athaillah
@@ -15,7 +15,7 @@ public class StringBuilderApp {
         name = name + " " + "Putra";
         System.out.println(name);
 
-        /**
+        /*
          * by using StringBuilder, then all strings in append method
          * will become 1 object that stored in 1 memory.
          * So the String data is not created many times, and it saves more memory.
